@@ -17,7 +17,10 @@
         <div class="ui middle aligned one column grid container">
             <div class="column">
 
-                <h1 class="ui huge header lora"><span>We have <strong>730</strong> days to fix</span> <br /> <span>the events of November 8, 2016</span></h1>
+                <div class="ui huge header lora">
+                    <p><span>We have <strong>730</strong> days to fix</span></p>
+                    <p><span>the events of November 8, 2016</span></p>
+                </div>
 
                 <article>
                     <p>We’re building seventhirty.org to maximize the impact of each day leading up to the 2018 Midterm Elections.</p>
