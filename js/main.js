@@ -1,4 +1,4 @@
-$( '.signup' ).click( function( e ) {
+$( '.signup a' ).click( function( e ) {
 
     e.preventDefault();
 
