@@ -27,6 +27,8 @@ div.grid.container {
 }
 
 .header br {
+    display: block;
+    margin: 2em 0;
     line-height: 2em;
 }
 
