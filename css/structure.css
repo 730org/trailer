@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  background: url('/images/720bg.png') fixed;
+  background: url('/images/720bg.jpg') fixed;
   background-size: cover;
   background-color: rgb( 33 , 33 , 102 );
   padding: 0;
