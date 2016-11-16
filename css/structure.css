@@ -48,16 +48,27 @@ article p br {
     line-height: 1.75em;
 }
 
-article a {
-    border: 3px rgb( 255 , 235, 0 ) solid;
-    padding: .5em .8em;
-    text-transform: uppercase;
+article a.signup {
+    text-transform: uppercase !important;
     font-weight: bold;
     font-size: 1.25em;
-    color: white;
     letter-spacing: -.0125em;
+    font-family: 'Open Sans', sans-serif;
 }
 
-article a:hover {
-    background-color: rgb( 255 , 235, 0 );
+form div.field input {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+form button.join {
+    font-family: 'Open Sans', sans-serif !important;
+    text-transform: uppercase !important;
+}
+
+#signup-form.loading {
+    visibility: hidden;
+}
+
+#signup-form.loading:before {
+    background-color: rgba( 0 , 0 , 0 , 0 ) !important;
 }
