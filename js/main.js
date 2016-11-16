@@ -93,7 +93,7 @@ $( '.ui.form' ).form({
     },
     onSuccess : function() {
         $( '.ui.modal form' ).api({
-            url : '/join',
+            url : '/join.php',
             method : 'POST',
             on : 'now',
             serializeForm : true,
