@@ -1,0 +1,14 @@
+{
+  "name": "validator-demo",
+  "homepage": "https://github.com/mailgun/validator-demo",
+  "_release": "15f4c9cb4d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "15f4c9cb4d93680a3f27ab9a71dfc1e30b93a810"
+  },
+  "_source": "https://github.com/mailgun/validator-demo.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/mailgun/validator-demo.git",
+  "_direct": true
+}

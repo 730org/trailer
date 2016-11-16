@@ -1,6 +1,6 @@
 
 .bowerrc
 
-*.json
+bower.json
 
 /vendor/
