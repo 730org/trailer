@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="/lib/semantic/dist/semantic.min.css">
-        <link rel="stylesheet" href="/css/structure.css">
+        <link rel="stylesheet" href="/css/structure.css?v=<?= time() ?>">
     </head>
 
     <body>
@@ -36,6 +36,6 @@
 
         <script src="/lib/jquery/dist/jquery.min.js"></script>
         <script src="/lib/semantic/dist/semantic.min.js"></script>
-        <script src="/js/main.js"></script>
+        <script src="/js/main.js?v=<?= time() ?>"></script>
     </body>
 </html>
