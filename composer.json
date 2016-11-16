@@ -1,0 +1,17 @@
+{
+    "name": "730org/trailer",
+    "description": "libraries for seventhirty.org trailer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miquel Brazil",
+            "email": "miquel@seventhirty.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "mailgun/mailgun-php": "^2.1",
+        "php-http/guzzle6-adapter": "^1.1",
+        "guzzlehttp/guzzle": "^6.2"
+    }
+}
