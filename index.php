@@ -1,3 +1,9 @@
+<?php
+    $today = new DateTime();
+    $election = new DateTime( '2018-11-06' );
+
+    $days = $election->diff( $today )->format( '%a' );
+?>
 <!doctype html>
 <html class="no-js" lang="">
     <head>
@@ -23,7 +29,7 @@
                 </div>
 
                 <article>
-                    <p>We’re building seventhirty.org to maximize the impact of each day leading up to the 2018 Midterm Elections.</p>
+                    <p>With only <strong><?= $days ?></strong> days left before the 2018 Midterm Elections, we don't have much time to make our voices and our votes heard.<br />We’re building 730.org to maximize the impact of each day leading up to this critical moment in our democracy.</p>
                     <p style="margin-bottom: 5em;">Stay tuned for a new way to become informed, get connected and stay engaged with <br /> progressive issues, organizations and candidates</p>
                     <p><a class="ui inverted big yellow button signup" href="#">Sign up for Updates</a></p>
                 </article>
